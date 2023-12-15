@@ -4,12 +4,10 @@
 #include "LinearEquation.h"
 #include "QuadraticEquation.h"
 
-int main() {
-    // Використання абстрактного класу через вказівник
+int main() { 
     Equation* linearEquation = new LinearEquation(2, -5);
     Equation* quadraticEquation = new QuadraticEquation(1, -3, 2);
 
-    // Виклик функції solve для обчислення коренів рівнянь
     linearEquation->solve();
     quadraticEquation->solve();
 
