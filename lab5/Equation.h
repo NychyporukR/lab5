@@ -3,7 +3,7 @@
 
 class Equation {
 public:
-    virtual void solve() const = 0;  // Віртуальна функція для обчислення коренів
+    virtual void solve() const = 0;  
     virtual ~Equation() {}
 };
 
